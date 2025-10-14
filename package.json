@@ -1,0 +1,73 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "todo app - A productivity application for task management and organization featuring authentication",
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "productivity",
+    "tasks",
+    "organization",
+    "workflow",
+    "authentication",
+    "auth"
+  ],
+  "author": "todo app Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "db:generate": "supabase gen types typescript --project-id YOUR_PROJECT_ID > types/supabase.ts",
+    "db:reset": "supabase db reset",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod --dir=.next"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "next": "^15.5.4",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss-animate": "^1.0.7",
+    "lucide-react": "^0.294.0",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-form": "^0.0.3",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.0",
+    "@supabase/auth-helpers-react": "^0.4.0",
+    "react-dropzone": "^14.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/node": "^20",
+    "@types/react-dom": "^18",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^15.0.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/todo-app/issues"
+  },
+  "homepage": "https://github.com/your-org/todo-app#readme"
+}
