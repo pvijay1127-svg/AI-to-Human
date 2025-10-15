@@ -1,0 +1,32 @@
+{
+  "name": "hello-app",
+  "version": "0.1.0",
+  "description": "\n🎯 FULL APPLICATION GENERATION REQUEST\n\n📱 Application Name: hello app\n📝 Description: Goal\nCreate a high-quality hello app with modern React architecture, comprehensive testing, and production-ready features. The devAgent must execute tasks in queue order (1 → 6). After all tasks complete and pass validations, open a Pull Request with a clear title and description.\n\nTech stack & requirements\n- React 18+ with TypeScript and modern patterns\n- Component-based architecture with reusability\n- Responsive design with mobile-first approach\n- State management with modern hooks/context\n- Form handling with validation\n- API integration with error handling\n- Loading states and user feedback\n- Accessibility compliance (WCAG 2.1)\n\nCore Features:\n1. Project Initialization\n  - Set up React + TypeScript project structure\n  - Configure development tools and scripts\n  - Set up styling framework (Tailwind CSS preferred)\n  - Add linting and formatting configuration\n\n2. Core Application Features\n  - Implement main application functionality based on \"hello app\"\n  - Create reusable components and utilities\n  - Add state management for application data\n  - Implement responsive layouts and navigation\n\n3. User Interface Enhancement\n  - Add interactive components and forms\n  - Implement loading states and error boundaries\n  - Add mobile-optimized touch interactions\n  - Create smooth animations and transitions\n\n4. API Integration & Data Management\n  - Set up API client for data fetching\n  - Implement error handling and retry logic\n  - Add data caching and state management\n  - Create data transformation utilities\n\n5. Testing Strategy\n  - Write unit tests for components and utilities\n  - Add integration tests for API interactions\n  - Implement E2E tests for critical user flows\n  - Add accessibility and performance testing\n\n6. Performance & Quality Assurance\n  - Optimize bundle size and loading performance\n  - Add code splitting and lazy loading\n  - Set up monitoring and error tracking\n  - Create comprehensive documentation\n\nQuality Gates:\n- All tests passing with 80%+ coverage\n- No ESLint errors or warnings\n- TypeScript compilation without errors\n- Accessibility audit passing\n- Performance budget compliance\n- Responsive design validation\n\nDeveloper ergonomics:\n- Create feature branch with descriptive name\n- Atomic commits with clear messages\n- Comprehensive PR description\n- Add appropriate labels and reviewers\n- Include setup and deployment instructions\n\nPlease implement this hello app following modern React best practices and ensure all features are thoroughly tested and documented.\n\n🏗️ Generation Mode: REPLACE existing structure\n🔧 Tech Stack: react-nextjs\n💾 Database: supabase\n🎨 Styling: tailwindcss\n🔐 Authentication: Included\n\n\n\n📋 REQUIREMENTS:\n1. Complete, production-ready application\n2. Modern, responsive design\n3. Proper error handling and validation\n4. Clean, maintainable code structure\n5. Documentation and comments\n6. TypeScript support (if selected)\n7. Database integration (if selected)\n8. Authentication system (if selected)\n\n\n⚠️ REPLACE MODE: This will generate a completely new application structure.\nThe existing project files will be replaced with the new application.\n",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.0",
+    "vitest": "^0.31.0",
+    "@vitest/ui": "^0.31.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "jsdom": "^22.0.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
